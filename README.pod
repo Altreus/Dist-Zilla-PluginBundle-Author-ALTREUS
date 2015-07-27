@@ -1,0 +1,18 @@
+=pod
+
+=encoding utf-8
+
+=head1 NAME
+
+Dist::Zilla::PluginBundle::Author::ALTREUS - BeLike::ALTREUS, who is exactly
+like DBOOK (except less obsessed with Mojolicious)
+
+=head1 DESCRIPTION
+
+This is exactly DBOOK's bundle except I've overridden the default github username.
+
+=head1 SEE ALSO
+
+L<Dist::Zilla::PluginBundle::Author::DBOOK>
+
+=cut
