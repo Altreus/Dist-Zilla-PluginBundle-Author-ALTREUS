@@ -10,8 +10,6 @@ our $VERSION = '0.001';
 before 'configure' => sub {
     my $self = shift;
     $self->{payload}->{github_user} //= 'Altreus';
-
-    $self->add_plugins([Prereqs => Myself => { -phase => 'develop', 'Dist::Zilla::PluginBundle::Author::ALTREUS' => $VERSION }]);
 };
 
 1;
