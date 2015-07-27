@@ -5,7 +5,7 @@ package Dist::Zilla::PluginBundle::Author::ALTREUS;
 use Moose;
 extends 'Dist::Zilla::PluginBundle::Author::DBOOK';
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 before 'configure' => sub {
     my $self = shift;
