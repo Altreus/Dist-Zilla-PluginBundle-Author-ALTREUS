@@ -11,7 +11,7 @@ before 'configure' => sub {
     my $self = shift;
     $self->{payload}->{github_user} //= 'Altreus';
 
-    $self->add_plugins([Prereqs => { -phase => 'develop', 'Dist::Zilla::PluginBundle::Author::ALTREUS' => $VERSION }]);
+    $self->add_plugins([Prereqs => Myself => { -phase => 'develop', 'Dist::Zilla::PluginBundle::Author::ALTREUS' => $VERSION }]);
 };
 
 1;
