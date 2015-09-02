@@ -1,1 +1,1 @@
-requires 'Dist::Zilla::PluginBundle::Author::DBOOK' => '0.005';
+requires 'Dist::Zilla::PluginBundle::Author::DBOOK' => '0.017';
